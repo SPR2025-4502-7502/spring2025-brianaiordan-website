@@ -22,8 +22,7 @@ nav ul li {
 	margin: 0.1rem;
 	max-width: 100%;
 	border-radius: 0.5rem;
-	border: 1px solid rgba(0.162,230,0.5);
-	border: 5x solid rgba(230,68,0,0.5);
+	border: 2px solid orange;
 }
 
 nav ul li a {
@@ -32,17 +31,16 @@ nav ul li a {
 	font-weight: 700;
 	font-style:normal;
 	text-decoration: none;
-	color: rgba(230,68,0,0.5);
 }
 
 nav ul li a:visited {
 	text-decoration: none;
-	color: lightpink;
+	color: mediumpurple;
 }
 
 nav ul li a:hover {
 	text-decoration:;
-	color: rebeccapurple;
+	color: lightpink;
 }
 
 
@@ -65,24 +63,34 @@ h1 {
 	font-style: normal;
 	font-size: 2rem;
 	color:lightpink;
-	text-shadow:lightpink 1px 0 10px;
+	text-shadow: mediumpurple 1px 0 10px;
 }
 
 p {
-	font-family: ;
+	font-family: "PT Serif", serif;
+  	font-weight: 400;
+  	font-style: normal;
 }
 
-.intro-text {
+h2 {
+	font-family: "Fira Sans", serif;
+ 	font-weight: 600;
+  	font-style: normal;
+}
+
+.list {
+	font-family: "Playwrite IT Moderna", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+}
+
+.text-box {
 	margin: 1rem;
 	margin-top: 2rem;
 	padding: 1rem;
-	background-color: rgba(191,236,255,0.4);
+	background-color: rgba(255,192,203,0.3);
 	border-radius: 10px;
-}
-
-.corner {
-	position: relative;
-	background-color: rgba(191,236,255,0.5);
 }
 
 
@@ -100,10 +108,16 @@ img {
 	border: none;
 }
 
+
 footer {
 	margin: 1rem;
 	padding: 1rem;
-	background-color: whitesmoke;
+	background-color: rgba(251,192,147, 0.5);
 	color: black;
 	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	font-family: "PT Serif", serif;
+  	font-weight: 400;
+  	font-style: normal;
 }
