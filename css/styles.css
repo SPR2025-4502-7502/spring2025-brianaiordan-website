@@ -9,7 +9,7 @@ nav {
 
 nav ul {
 	diplay: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	margin-block-start: 0em;
 	padding-inline-start: 0px;
