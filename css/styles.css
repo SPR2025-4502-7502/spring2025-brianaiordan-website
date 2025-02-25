@@ -1,6 +1,6 @@
 nav {
 	background-color: ;
-	max-width: ;
+	max-width: 800px;
 	margin: auto;
 	font-size: 1rem;
 	border-radius: 0.2rem;
@@ -22,6 +22,17 @@ nav ul li {
 	margin: 0.1rem;
 	max-width: 100%;
 	border-radius: 0.5rem;
+	border: 1px solid rgba(0.162,230,0.5);
+	border: 5x solid rgba(230,68,0,0.5);
+}
+
+nav ul li a {
+	font-family: ;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style:normal;
+	text-decoration: none;
+	color: rgba(230,68,0,0.5);
 }
 
 nav ul li a:visited {
