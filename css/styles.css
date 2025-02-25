@@ -5,6 +5,9 @@ nav {
 	font-size: 1rem;
 	border-radius: 0.2rem;
 	text-transform: uppercase;
+}
+
+nav ul {
 	diplay: flex;
 	flex-direction: row;
 	justify-content: space-between;
