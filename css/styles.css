@@ -14,3 +14,17 @@ p {
 .sunset {
 	background-image: url("../img/sunset.jpg") !important;
 }
+
+.main-image{
+	display: flex;
+}
+
+.main-image img{
+	max-width: 45%;
+	border-radius: 3000px;
+	margin: auto;
+}
+
+img {
+	border: none;
+}
