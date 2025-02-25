@@ -7,6 +7,15 @@ nav {
 	text-transform: uppercase;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family:;
+	font-size: 2rem;
+	color:;
+	text-shadow:;
+}
+
 p {
 	font-family: ;
 }
