@@ -9,7 +9,7 @@ nav {
 
 nav ul {
 	diplay: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	justify-content: space-between;
 	margin-block-start: 0em;
 	padding-inline-start: 0px;
@@ -17,6 +17,7 @@ nav ul {
 
 nav ul li {
 	background-color: whitesmoke;
+	flex-flow: row wrap;
 	list-style-type: none;
 	padding: 0.3rem;
 	margin: 0.1rem;
