@@ -22,11 +22,11 @@ nav ul li {
 	margin: 0.1rem;
 	max-width: 100%;
 	border-radius: 0.5rem;
-	border: 2px solid orange;
+	border: 2px solid rgba(251,192,147, 0.8);
 }
 
 nav ul li a {
-	font-family: ;
+	font-family: "PT Serif", serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style:normal;
@@ -93,7 +93,6 @@ h2 {
 	border-radius: 10px;
 }
 
-
 .main-image{
 	display: flex;
 }
@@ -107,7 +106,6 @@ h2 {
 img {
 	border: none;
 }
-
 
 footer {
 	margin: 1rem;
