@@ -1,0 +1,16 @@
+nav {
+	background-color: ;
+	max-width: ;
+	margin: auto;
+	font-size: 1rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: ;
+}
+
+.sunset {
+	background-image: url("../img/sunset.jpg") !important;
+}
