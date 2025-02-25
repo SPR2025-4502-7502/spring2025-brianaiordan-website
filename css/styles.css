@@ -64,8 +64,8 @@ h1 {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 2rem;
-	color:;
-	text-shadow:;
+	color:lightpink;
+	text-shadow:lightpink 1px 0 10px;
 }
 
 p {
