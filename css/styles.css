@@ -37,7 +37,7 @@ nav ul li a {
 
 nav ul li a:visited {
 	text-decoration: none;
-	color: blue;
+	color: darkcyan;
 }
 
 nav ul li a:hover {
@@ -53,6 +53,10 @@ body {
 	background-color: whitesmoke;
 }
 
+.sunset {
+	background-image: url("../img/sunset.jpg") !important;
+}
+
 h1 {
 	display: flex;
 	justify-content: center;
@@ -66,9 +70,19 @@ p {
 	font-family: ;
 }
 
-.sunset {
-	background-image: url("../img/sunset.jpg") !important;
+.intro-text {
+	margin: 1rem;
+	margin-top: 2rem;
+	padding: 1rem;
+	background-color: rgba(191,236,255,0.4);
+	border-radius: 10px;
 }
+
+.corner {
+	position: relative;
+	background-color: blue;
+}
+
 
 .main-image{
 	display: flex;
