@@ -97,3 +97,11 @@ p {
 img {
 	border: none;
 }
+
+footer {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: whitesmoke;
+	color: black;
+	border-radius: 10px;
+}
