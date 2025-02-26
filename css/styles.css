@@ -1,5 +1,5 @@
 nav {
-	background-color: ;
+	/* background-color: ;*/
 	max-width: 800px;
 	margin: auto;
 	font-size: 1rem;
@@ -8,7 +8,7 @@ nav {
 }
 
 nav ul {
-	diplay: flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-block-start: 0em;
@@ -31,6 +31,7 @@ nav ul li a {
 	font-weight: 700;
 	font-style:normal;
 	text-decoration: none;
+	color: mediumpurple;
 }
 
 nav ul li a:visited {
