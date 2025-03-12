@@ -48,7 +48,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url("../img/sunset.jpg") !important;
+	background-image: url("../img/sunset.jpg");
 }
 
 
@@ -115,4 +115,94 @@ footer {
 	font-family: "PT Serif", serif;
   	font-weight: 400;
   	font-style: normal;
+}
+
+@media screen and (max-width: 500px){
+
+nav {
+	max-width: 100%;
+	margin: auto;
+	font-size: 1rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+}
+
+nav ul {
+	max-height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: stretch;
+	flex-wrap: wrap;
+	margin-block-start: 0em;
+	padding-inline-start: 0px;
+}
+
+nav ul li {
+	background-color: whitesmoke;
+	list-style-type: none;
+	padding: 0.3rem;
+	margin: 0.1rem;
+	max-width: 100%;
+	min-width: 45%;
+	border-radius: 0.5rem;
+	border: 2px solid rgba(251,192,147, 0.8);
+}
+
+nav ul li a {
+	font-family: "PT Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style:normal;
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: lightpink;
+}
+
+
+body {
+	background-color: mediumpurple;
+	background-image: none;
+}
+
+
+h1 {
+	margin-top: -0.5rem;
+	margin-left: 1rem;
+	justify-content: space-around;
+}
+
+
+.list {
+	font-family: "Playwrite IT Moderna", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+}
+
+.text-box {
+	margin: 1rem;
+	margin-top: 2rem;
+	padding: 1rem;
+	background-color: rgba(255,192,203,0.3);
+	border-radius: 10px;
+}
+
+.main-image img{
+	max-width:50%;
+}
+
+img {
+	border: none;
+}
+
 }
