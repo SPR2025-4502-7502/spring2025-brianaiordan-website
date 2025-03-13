@@ -159,6 +159,14 @@ footer {
 	margin: 1rem;
 }
 
+.book-title h2{
+	font-family: "Pirata One", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
 .gradient{
 	background-color: mediumpurple;
 	background: linear-gradient(60deg, rgba(163,58,180,0.48211960565476186) 0%, rgba(253,29,29,0.6696196056547619) 50%, rgba(191,85, 236) 100%);
