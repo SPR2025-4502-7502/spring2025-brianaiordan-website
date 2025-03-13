@@ -117,6 +117,25 @@ footer {
   	font-style: normal;
 }
 
+list-image{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	margin: auto;
+}
+
+.list-image img{
+	max-width: 200px;
+	margin: 1rem;
+}
+
+.gradient{
+	background-color: mediumpurple;
+	background: linear-gradient(45deg, rgba(163,58,180,0.48211960565476186) 0%, rgba(253,29,29,0.6696196056547619) 50%, rgba(191,85, 236) 100%);
+
+}
+
 @media screen and (max-width: 500px){
 
 nav {
@@ -203,6 +222,11 @@ h1 {
 
 img {
 	border: none;
+}
+
+.gradient{
+	background-color: mediumpurple;
+
 }
 
 }
