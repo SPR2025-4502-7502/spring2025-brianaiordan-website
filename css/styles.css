@@ -34,7 +34,6 @@ nav ul li {
 
 nav ul li a {
 	font-family: "PT Serif", serif;
-	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style:normal;
 	text-decoration: none;
@@ -87,7 +86,6 @@ p {
 
 .list {
 	font-family: "Playwrite IT Moderna", serif;
-  	font-optical-sizing: auto;
   	font-weight: 300;
   	font-style: normal;
 }
