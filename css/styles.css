@@ -192,6 +192,11 @@ body {
 	background-color: mediumpurple;
 }
 
+.list-image img {
+	border-radius: 5px;
+	box-shadow: 3px 1px 1px 1px #c9c3bd;
+}
+
 }
 
 @media screen and (width >= 550px) {
