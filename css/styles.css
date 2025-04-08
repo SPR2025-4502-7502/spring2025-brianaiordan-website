@@ -238,6 +238,14 @@ body {
 		border-radius: 20px;
 	}
 
+	.location-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgba(212, 175, 55, 73%);
+	border-radius: 20px;
+}
+
 .list-image img {
 	border-radius: 5px;
 	box-shadow: 3px 1px 1px 1px #c9c3bd;
@@ -261,6 +269,14 @@ body {
 		background-color: #f2f0ef;
 		border-radius: 20px;
 	}
+
+.location-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgba(212, 175, 55, 73%);
+	border-radius: 20px;
+}
 
 	.list-image img {
 		border-radius: 10px;
