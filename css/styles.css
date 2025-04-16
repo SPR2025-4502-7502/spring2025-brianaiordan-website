@@ -267,6 +267,16 @@ button {
 }
 
 
+.map-style {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.map {
+	display: flex;
+	border-radius: 5px;
+}
+
 @media screen and (width < 555px){
 
 body {
