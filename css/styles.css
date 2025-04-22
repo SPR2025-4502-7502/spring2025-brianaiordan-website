@@ -2,6 +2,16 @@
 	box-sizing: border-box;
 }
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
 nav {
 	display: flex;
 	justify-content: center;
